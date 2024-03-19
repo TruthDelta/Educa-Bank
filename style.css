@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(78, 135, 168);
+    padding: 60px;
+}
+
+.topo {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+.topo li {
+    margin-right: 20px;
+}
+
+.topo li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#main { 
+background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+padding: 80px;
+display: flex;
+font-size: 50px;
+justify-content: left;
+}
+
+#main p {
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+#main button {
+background-color: rgb(169, 220, 192);
+padding: 13px;
+font-size: 20px;
+border-radius: 25px;
+color: #c0cdcf;
+}
+
+#main button a {
+text-decoration: none;
+color: white;
+}
+
+#meio2 {
+justify-content: space-evenly;
+display: flex;
+padding: 150px;
+align-items: center;
+}
+
+#meio2 p {
+font-size: 40px;
+margin-bottom: 30px;
+margin-right: 100px;
+}
+
+#meio2 img {
+width: 500px;
+}
+
+#meio2 button {
+background-color: rgb(169, 220, 192);
+padding: 13px;
+font-size: 20px;
+border-radius: 25px;
+color: #c0cdcf;
+}
+
+#meio2 button a {
+text-decoration: none;
+color: white;
+}
