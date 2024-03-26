@@ -68,7 +68,7 @@ header {
 
 #meio2 button {
     background-color: rgb(169, 220, 192);
-    padding: 13px;
+    padding: 15px;
     font-size: 20px;
     border-radius: 25px;
     color: #c0cdcf;
@@ -103,6 +103,7 @@ header {
     font-size: 20px;
     border-radius: 25px;
     color: #c0cdcf;
+    margin: 50px;
 }
 
 #meio3 button a {
@@ -111,14 +112,16 @@ header {
 }
 
 #meio3 hr {
-display: flex;
-width: 800px;
-justify-content: center;
-margin: 40px;
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
 }
 
 #meio3 img {
-
-
+margin-left: 100px;
+width: 50rem;
 }
 
+#cofre {
+background: linear-gradient(180deg, rgba(95, 95, 255, 0.761) 8.33%, rgba(5, 39, 101, 0.71) 100%), url(imagens/img\ cofre\ fundo.jpg);
+}
