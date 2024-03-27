@@ -24,8 +24,8 @@ header {
 }
 
 #main {
-    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
-    padding: 80px;
+    background: linear-gradient(180deg, #e3ebec 8.33%, rgba(90, 168, 168) 100%);
+    padding: 250px;
     display: flex;
     font-size: 50px;
     justify-content: left;
@@ -37,16 +37,15 @@ header {
 }
 
 #main button {
-    background-color: rgb(169, 220, 192);
+    background-color: rgb(55, 195, 116);
     padding: 13px;
     font-size: 20px;
     border-radius: 25px;
-    color: #c0cdcf;
+    color: #e3ebec;
 }
 
-#main button a {
+#main a {
     text-decoration: none;
-    color: white;
 }
 
 #meio2 {
@@ -67,16 +66,15 @@ header {
 }
 
 #meio2 button {
-    background-color: rgb(169, 220, 192);
+    background-color: rgb(55, 195, 116);
     padding: 15px;
     font-size: 20px;
     border-radius: 25px;
-    color: #c0cdcf;
+    color: #e3ebec;
 }
 
-#meio2 button a {
+#meio2 a {
     text-decoration: none;
-    color: white;
 }
 
 #meio3 {
@@ -98,17 +96,17 @@ header {
 }
 
 #meio3 button {
-    background-color: rgb(169, 220, 192);
+    background-color: rgb(55, 195, 116);
     padding: 13px;
+    width: 20%;
     font-size: 20px;
     border-radius: 25px;
-    color: #c0cdcf;
     margin: 50px;
+    color: #e3ebec;
 }
 
 #meio3 button a {
     text-decoration: none;
-    color: white;
 }
 
 #meio3 hr {
@@ -118,10 +116,65 @@ header {
 }
 
 #meio3 img {
-margin-left: 100px;
-width: 50rem;
+    margin-left: 100px;
+    width: 50rem;
 }
 
 #cofre {
-background: linear-gradient(180deg, rgba(95, 95, 255, 0.761) 8.33%, rgba(5, 39, 101, 0.71) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    background: linear-gradient(180deg, rgba(95, 95, 255, 0.761) 8.33%, rgba(5, 39, 101, 0.71) 100%), url(imagens/img\ cofre\ fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 280px;
+}
+
+.cfimg img {
+    width: 80%;
+    height: auto;
+}
+
+.texto {
+    color: white;
+}
+
+.texto h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.texto p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: darkslategray;
+    padding: 20px;
+}
+
+footer img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(186, 186, 186);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    font-size: 17px;
 }
